@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.hellblazer.primeMover</groupId>
+  <artifactId>primeMover.app</artifactId>
+  <versioning>
+    <lastUpdated>20230814224921</lastUpdated>
+    <snapshot>
+      <timestamp>20230814.224921</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-20230814.224921-1</value>
+        <updated>20230814224921</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.1.0-SNAPSHOT</version>
+</metadata>

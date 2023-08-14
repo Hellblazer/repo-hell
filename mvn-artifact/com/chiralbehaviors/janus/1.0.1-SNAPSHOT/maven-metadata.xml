@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.chiralbehaviors</groupId>
+  <artifactId>janus</artifactId>
+  <versioning>
+    <lastUpdated>20230814225022</lastUpdated>
+    <snapshot>
+      <timestamp>20230814.225022</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.1-20230814.225022-1</value>
+        <updated>20230814225022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.1-20230814.225022-1</value>
+        <updated>20230814225022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.1-20230814.225022-1</value>
+        <updated>20230814225022</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.1-SNAPSHOT</version>
+</metadata>
