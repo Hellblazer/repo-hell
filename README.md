@@ -1,5 +1,7 @@
 # repo-hell
 Hellblazing Repository
+___
+A Maven Repository For Hellish Things
 ## Hellbound Maven Repository Configuration
 
     <repositories>
