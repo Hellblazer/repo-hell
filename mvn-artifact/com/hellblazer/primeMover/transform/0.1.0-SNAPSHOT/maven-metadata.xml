@@ -3,27 +3,27 @@
   <groupId>com.hellblazer.primeMover</groupId>
   <artifactId>transform</artifactId>
   <versioning>
-    <lastUpdated>20230824220703</lastUpdated>
+    <lastUpdated>20231011165638</lastUpdated>
     <snapshot>
-      <timestamp>20230824.220703</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20231011.165638</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20230824.220703-2</value>
-        <updated>20230824220703</updated>
+        <value>0.1.0-20231011.165638-3</value>
+        <updated>20231011165638</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.0-20230824.220703-2</value>
-        <updated>20230824220703</updated>
+        <value>0.1.0-20231011.165638-3</value>
+        <updated>20231011165638</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-20230824.220703-2</value>
-        <updated>20230824220703</updated>
+        <value>0.1.0-20231011.165638-3</value>
+        <updated>20231011165638</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
