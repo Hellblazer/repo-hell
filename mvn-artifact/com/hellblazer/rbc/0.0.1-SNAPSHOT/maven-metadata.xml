@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.hellblazer</groupId>
-  <artifactId>archipelago.app</artifactId>
+  <artifactId>rbc</artifactId>
   <versioning>
     <lastUpdated>20231015190729</lastUpdated>
     <snapshot>
       <timestamp>20231015.190729</timestamp>
-      <buildNumber>2</buildNumber>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20231015.190729-2</value>
+        <value>0.0.1-20231015.190729-1</value>
+        <updated>20231015190729</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20231015.190729-1</value>
         <updated>20231015190729</updated>
       </snapshotVersion>
     </snapshotVersions>

@@ -3,21 +3,21 @@
   <groupId>com.hellblazer</groupId>
   <artifactId>domain-kqueue</artifactId>
   <versioning>
-    <lastUpdated>20231012024039</lastUpdated>
+    <lastUpdated>20231015190729</lastUpdated>
     <snapshot>
-      <timestamp>20231012.024039</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20231015.190729</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20231012.024039-1</value>
-        <updated>20231012024039</updated>
+        <value>0.0.1-20231015.190729-2</value>
+        <updated>20231015190729</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20231012.024039-1</value>
-        <updated>20231012024039</updated>
+        <value>0.0.1-20231015.190729-2</value>
+        <updated>20231015190729</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
