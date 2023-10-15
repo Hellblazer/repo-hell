@@ -3,27 +3,27 @@
   <groupId>com.hellblazer</groupId>
   <artifactId>cryptography</artifactId>
   <versioning>
-    <lastUpdated>20231015151109</lastUpdated>
+    <lastUpdated>20231015231334</lastUpdated>
     <snapshot>
-      <timestamp>20231015.151109</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20231015.231334</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20231015.151109-3</value>
-        <updated>20231015151109</updated>
+        <value>0.0.1-20231015.231334-5</value>
+        <updated>20231015231334</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20231015.151109-3</value>
-        <updated>20231015151109</updated>
+        <value>0.0.1-20231015.231334-5</value>
+        <updated>20231015231334</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-20231015.151109-3</value>
-        <updated>20231015151109</updated>
+        <value>0.0.1-20231015.231334-5</value>
+        <updated>20231015231334</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
