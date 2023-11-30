@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 08 07:25:22 PDT 2022
+@default-Maven\ Central-https\://mvnrepository.com/artifact/.lastUpdated=1654698322255
+https\://mvnrepository.com/artifact/.error=Could not transfer artifact com.salesforce.apollo\:thoth\:jar\:sources\:0.0.1-SNAPSHOT from/to Maven Central (https\://mvnrepository.com/artifact/)\: Access denied to https\://mvnrepository.com/artifact/com/salesforce/apollo/thoth/0.0.1-SNAPSHOT/thoth-0.0.1-SNAPSHOT-sources.jar. Error code 403, 

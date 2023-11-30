@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 03 15:55:14 PDT 2022
+@default-Maven\ Central-https\://mvnrepository.com/artifact/.lastUpdated=1664837714799
+https\://mvnrepository.com/artifact/.error=Could not transfer artifact com.salesforce.apollo\:protocols\:jar\:sources\:0.0.1-SNAPSHOT from/to Maven Central (https\://mvnrepository.com/artifact/)\: Access denied to https\://mvnrepository.com/artifact/com/salesforce/apollo/protocols/0.0.1-SNAPSHOT/protocols-0.0.1-SNAPSHOT-sources.jar. Error code 403, 

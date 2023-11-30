@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 15 17:54:24 PDT 2023
+@default-Maven\ Central-https\://mvnrepository.com/artifact/.lastUpdated=1665946064969
+https\://maven.pkg.github.com/Hellblazer/Prime-Mover/.error=
+https\://maven.pkg.github.com/Hellblazer/Prime-Mover/.lastUpdated=1692147264875
+https\://mvnrepository.com/artifact/.error=Could not transfer artifact com.salesforce.apollo\:stereotomy\:jar\:javadoc\:0.0.1-SNAPSHOT from/to Maven Central (https\://mvnrepository.com/artifact/)\: Access denied to https\://mvnrepository.com/artifact/com/salesforce/apollo/stereotomy/0.0.1-SNAPSHOT/stereotomy-0.0.1-SNAPSHOT-javadoc.jar. Error code 403, 
+https\://repo1.maven.org/maven2/.error=
+https\://repo1.maven.org/maven2/.lastUpdated=1692147264443

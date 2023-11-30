@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Oct 16 11:47:45 PDT 2022
+@default-Maven\ Central-https\://mvnrepository.com/artifact/.lastUpdated=1665946065272
+https\://mvnrepository.com/artifact/.error=Could not transfer artifact com.salesforce.apollo\:stereotomy-services\:jar\:javadoc\:0.0.1-SNAPSHOT from/to Maven Central (https\://mvnrepository.com/artifact/)\: Access denied to https\://mvnrepository.com/artifact/com/salesforce/apollo/stereotomy-services/0.0.1-SNAPSHOT/stereotomy-services-0.0.1-SNAPSHOT-javadoc.jar. Error code 403, 
