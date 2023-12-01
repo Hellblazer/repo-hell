@@ -45,7 +45,7 @@ public class Hashed {
         }
         for (var file : fileSet) {
             var fn = file.getFileName().toString();
-            if (fn.startsWith(".") || fn.endsWith(".md5") || fn.endsWith(".sh1")) {
+            if (fn.startsWith(".") || fn.endsWith(".md5") || fn.endsWith(".sha1") || fn.endsWith(".lastUpdated")) {
                 continue;
             }
             if (!file.getFileSystem().getPath(file.toString() + ".md5").toFile().exists()) {
