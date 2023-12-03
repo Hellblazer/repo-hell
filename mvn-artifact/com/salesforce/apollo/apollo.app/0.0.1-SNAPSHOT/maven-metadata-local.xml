@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>apollo.app</artifactId>
   <versioning>
-    <lastUpdated>20231129153305</lastUpdated>
+    <lastUpdated>20231203171815</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,19 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20231129153305</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>cyclonedx</classifier>
-        <extension>json</extension>
-        <value>0.0.1-SNAPSHOT</value>
-        <updated>20221024201804</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>cyclonedx</classifier>
-        <extension>xml</extension>
-        <value>0.0.1-SNAPSHOT</value>
-        <updated>20221024201804</updated>
+        <updated>20231203171815</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

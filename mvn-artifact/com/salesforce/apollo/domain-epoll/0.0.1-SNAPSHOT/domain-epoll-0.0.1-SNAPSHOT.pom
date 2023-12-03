@@ -7,10 +7,14 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>domain-epoll</artifactId>
-    <name>Domain EPoll</name>
+    <name>Domain Sockets EPoll</name>
     <description>Linux Unix Domain Socket Support</description>
 
     <dependencies>
+        <dependency>
+            <groupId>com.salesforce.apollo</groupId>
+            <artifactId>domain-sockets</artifactId>
+        </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll</artifactId>

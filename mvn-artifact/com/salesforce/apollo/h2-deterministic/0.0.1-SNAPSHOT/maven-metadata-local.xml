@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>h2-deterministic</artifactId>
   <versioning>
-    <lastUpdated>20230921152834</lastUpdated>
+    <lastUpdated>20231203171815</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,12 +11,12 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20230921152834</updated>
+        <updated>20231203171815</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20230921152834</updated>
+        <updated>20231203171815</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

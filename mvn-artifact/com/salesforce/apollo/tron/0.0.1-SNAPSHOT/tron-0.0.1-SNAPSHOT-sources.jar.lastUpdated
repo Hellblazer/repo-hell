@@ -1,4 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Oct 17 17:48:03 PDT 2022
-@default-Maven\ Central-https\://mvnrepository.com/artifact/.lastUpdated=1666054083481
-https\://mvnrepository.com/artifact/.error=Could not transfer artifact com.salesforce.apollo\:tron\:jar\:sources\:0.0.1-SNAPSHOT from/to Maven Central (https\://mvnrepository.com/artifact/)\: Access denied to https\://mvnrepository.com/artifact/com/salesforce/apollo/tron/0.0.1-SNAPSHOT/tron-0.0.1-SNAPSHOT-sources.jar. Error code 403, 
