@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 04 15:53:37 PST 2023
+liquibase-deterministic-0.0.1-SNAPSHOT.jar>=
+liquibase-deterministic-0.0.1-SNAPSHOT.pom>=

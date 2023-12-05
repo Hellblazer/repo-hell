@@ -45,15 +45,12 @@ public class Hashed {
         }
         for (var file : fileSet) {
             var fn = file.getFileName().toString();
-            if (fn.startsWith(".") || fn.endsWith(".md5") || fn.endsWith(".sha1") || fn.endsWith(".lastUpdated")) {
+            if (fn.startsWith(".") || fn.endsWith(".md5") || fn.endsWith(".sha1") || fn.endsWith(".lastUpdated")
+            || fn.endsWith(".repositories")) {
                 continue;
             }
-            if (!file.getFileSystem().getPath(file.toString() + ".md5").toFile().exists()) {
-                writeMd5(file);
-            }
-            if (!file.getFileSystem().getPath(file.toString() + ".sha1").toFile().exists()) {
-                writeSha1(file);
-            }
+            writeMd5(file);
+            writeSha1(file);
         }
         return directories;
     }
