@@ -31,7 +31,7 @@ public class Hashed {
     }
 
     public static Set<Path> process(Path dir) throws Exception {
-        System.out.println("Processing directory: " + REPOSITORY_ROOT.relativize(dir).getFileName());
+        System.out.println("Processing directory: " + REPOSITORY_ROOT.relativize(dir));
         var fileSet = new HashSet<Path>();
         var directories = new HashSet<Path>();
         try (var stream = Files.newDirectoryStream(dir)) {
