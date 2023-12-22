@@ -31,6 +31,7 @@
         <module>domain-epoll</module>
         <module>domain-kqueue</module>
         <module>domain-sockets</module>
+        <module>leyden</module>
     </modules>
 
     <properties>
@@ -172,6 +173,11 @@
             <dependency>
                 <groupId>com.salesforce.apollo</groupId>
                 <artifactId>cryptography</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.salesforce.apollo</groupId>
+                <artifactId>leyden</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -520,6 +526,11 @@
                 <version>${netty.version}</version>
                 <classifier>${os.detected.classifier}</classifier>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.macasaet.fernet</groupId>
+                <artifactId>fernet-java8</artifactId>
+                <version>1.4.2</version>
             </dependency>
             <dependency>
                 <groupId>org.graalvm.sdk</groupId>

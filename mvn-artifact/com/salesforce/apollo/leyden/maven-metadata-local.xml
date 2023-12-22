@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.salesforce.apollo</groupId>
+  <artifactId>leyden</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20231222224129</lastUpdated>
+  </versioning>
+</metadata>

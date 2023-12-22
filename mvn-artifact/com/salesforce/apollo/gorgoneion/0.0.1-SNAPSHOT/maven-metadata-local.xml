@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>gorgoneion</artifactId>
   <versioning>
-    <lastUpdated>20231205025131</lastUpdated>
+    <lastUpdated>20231222224129</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,12 +11,12 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20231205025131</updated>
+        <updated>20231222224129</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20231205025131</updated>
+        <updated>20231222224129</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
