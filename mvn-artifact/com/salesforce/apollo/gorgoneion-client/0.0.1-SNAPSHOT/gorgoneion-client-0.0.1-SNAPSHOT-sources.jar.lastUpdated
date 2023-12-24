@@ -1,10 +1,10 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 18 09:36:38 PST 2023
+#Sat Dec 23 18:44:29 PST 2023
 file\:///Users/hal.hildebrand/git/repo-hell/mvn-artifact/.error=
-file\:///Users/hal.hildebrand/git/repo-hell/mvn-artifact/.lastUpdated=1702920998563
+file\:///Users/hal.hildebrand/git/repo-hell/mvn-artifact/.lastUpdated=1703385869102
 file\:///tmp/test-flight/.error=
-file\:///tmp/test-flight/.lastUpdated=1702920998564
+file\:///tmp/test-flight/.lastUpdated=1703385869102
 https\://raw.githubusercontent.com/Hellblazer/repo-hell/main/mvn-artifact/.error=
-https\://raw.githubusercontent.com/Hellblazer/repo-hell/main/mvn-artifact/.lastUpdated=1702920998782
+https\://raw.githubusercontent.com/Hellblazer/repo-hell/main/mvn-artifact/.lastUpdated=1703385869328
 https\://repo1.maven.org/maven2/.error=
-https\://repo1.maven.org/maven2/.lastUpdated=1702920998561
+https\://repo1.maven.org/maven2/.lastUpdated=1703385869100
