@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>tron</artifactId>
   <versioning>
-    <lastUpdated>20231224180340</lastUpdated>
+    <lastUpdated>20231225010352</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,12 +11,18 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20231224180340</updated>
+        <updated>20231225010352</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20231224180340</updated>
+        <updated>20231225010352</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20231225010352</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

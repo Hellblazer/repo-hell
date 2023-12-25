@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Dec 24 10:08:26 PST 2023
+#Sun Dec 24 17:04:09 PST 2023
+model-0.0.1-SNAPSHOT-sources.jar>=
 model-0.0.1-SNAPSHOT.jar>=
 model-0.0.1-SNAPSHOT.pom>=
