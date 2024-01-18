@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>liquibase-deterministic</artifactId>
   <versioning>
-    <lastUpdated>20240116023545</lastUpdated>
+    <lastUpdated>20240118005622</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,18 +11,18 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240116023545</updated>
+        <updated>20240118005622</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240116023545</updated>
+        <updated>20240118005622</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240116023545</updated>
+        <updated>20240118005622</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
