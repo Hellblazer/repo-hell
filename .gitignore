@@ -4,3 +4,10 @@
 **/.project
 **/.idea
 **/*.iml
+**/_remote.repositories
+**/*.lastUpdated
+**/resolver-status.properties
+**/resolver-status.properties.*
+
+
+
