@@ -2,29 +2,29 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>cryptography</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <versioning>
-    <lastUpdated>20240121162232</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
+    <lastUpdated>20240218004723</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.1-SNAPSHOT</value>
-        <updated>20240121162232</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-SNAPSHOT</value>
-        <updated>20240121162232</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240121162232</updated>
+        <updated>20240218004723</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20240218004723</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20240218004723</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
-  <version>0.0.1-SNAPSHOT</version>
 </metadata>

@@ -51,6 +51,7 @@
         <version.java>21</version.java>
         <graal.vm.version>23.1.0</graal.vm.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <forks>1</forks>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -776,6 +777,10 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.1.2</version>
+                    <configuration>
+                        <forkCount>${forks}</forkCount>
+                        <reuseForks>true</reuseForks>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
