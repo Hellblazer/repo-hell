@@ -39,9 +39,20 @@
                     <exclude>org.h2.api.TableEngine</exclude>
                     <exclude>org.h2.api.Trigger</exclude>
                     <exclude>org.h2.api.UserToRolesMapper</exclude>
+                    <exclude>org.h2.mvstore</exclude>
+                    <exclude>org.h2.store</exclude>
+                    <exclude>org.h2.bnf.context</exclude>
                   </excludes>
                 </relocation>
               </relocations>
+              <filters>
+                <filter>
+                  <artifact>com.h2database:h2</artifact>
+                  <excludes>
+                    <exclude>org/h2/server/**</exclude>
+                  </excludes>
+                </filter>
+              </filters>
             </configuration>
           </execution>
         </executions>
