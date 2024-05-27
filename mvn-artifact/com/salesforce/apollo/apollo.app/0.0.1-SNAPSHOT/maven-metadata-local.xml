@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>apollo.app</artifactId>
   <versioning>
-    <lastUpdated>20240526190620</lastUpdated>
+    <lastUpdated>20240527013814</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,7 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240526190620</updated>
+        <updated>20240527013814</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
