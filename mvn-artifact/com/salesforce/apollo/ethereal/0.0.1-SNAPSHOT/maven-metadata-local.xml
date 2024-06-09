@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>ethereal</artifactId>
   <versioning>
-    <lastUpdated>20240607154546</lastUpdated>
+    <lastUpdated>20240609035527</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,18 +11,18 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240607154546</updated>
+        <updated>20240609035527</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240607154546</updated>
+        <updated>20240609035527</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240607154546</updated>
+        <updated>20240609035527</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
