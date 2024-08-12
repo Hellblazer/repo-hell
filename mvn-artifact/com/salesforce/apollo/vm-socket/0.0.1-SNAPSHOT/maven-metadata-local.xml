@@ -3,7 +3,7 @@
   <groupId>com.salesforce.apollo</groupId>
   <artifactId>vm-socket</artifactId>
   <versioning>
-    <lastUpdated>20240811234921</lastUpdated>
+    <lastUpdated>20240812050335</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,18 +11,18 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240811234921</updated>
+        <updated>20240812050335</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240811234921</updated>
+        <updated>20240812050335</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240811234921</updated>
+        <updated>20240812050335</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
