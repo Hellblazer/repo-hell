@@ -3,7 +3,7 @@
   <groupId>com.hellblazer.delos</groupId>
   <artifactId>delos.app</artifactId>
   <versioning>
-    <lastUpdated>20240818012015</lastUpdated>
+    <lastUpdated>20240819233410</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,7 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.0.1-SNAPSHOT</value>
-        <updated>20240818012015</updated>
+        <updated>20240819233410</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
