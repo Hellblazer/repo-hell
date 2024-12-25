@@ -3,27 +3,26 @@
   <groupId>com.hellblazer</groupId>
   <artifactId>thoth</artifactId>
   <versioning>
-    <lastUpdated>20230814224942</lastUpdated>
+    <lastUpdated>20241225185647</lastUpdated>
     <snapshot>
-      <timestamp>20230814.224942</timestamp>
-      <buildNumber>1</buildNumber>
+      <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20230814.224942-1</value>
-        <updated>20230814224942</updated>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20241225185647</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20230814.224942-1</value>
-        <updated>20230814224942</updated>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20241225185647</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-20230814.224942-1</value>
-        <updated>20230814224942</updated>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20241225185647</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
