@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.hellblazer.primeMover</groupId>
+  <artifactId>primemover-maven-plugin</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20241225184851</lastUpdated>
+  </versioning>
+</metadata>
