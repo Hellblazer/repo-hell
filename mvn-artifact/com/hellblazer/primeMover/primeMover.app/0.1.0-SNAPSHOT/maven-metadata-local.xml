@@ -3,7 +3,7 @@
   <groupId>com.hellblazer.primeMover</groupId>
   <artifactId>primeMover.app</artifactId>
   <versioning>
-    <lastUpdated>20250420030234</lastUpdated>
+    <lastUpdated>20250420035857</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,7 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.1.0-SNAPSHOT</value>
-        <updated>20250420030234</updated>
+        <updated>20250420035857</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
