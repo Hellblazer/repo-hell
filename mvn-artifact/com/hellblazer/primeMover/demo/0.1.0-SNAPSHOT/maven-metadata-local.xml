@@ -3,7 +3,7 @@
   <groupId>com.hellblazer.primeMover</groupId>
   <artifactId>demo</artifactId>
   <versioning>
-    <lastUpdated>20250517175429</lastUpdated>
+    <lastUpdated>20250526181915</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,18 +11,18 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.1.0-SNAPSHOT</value>
-        <updated>20250517175429</updated>
+        <updated>20250526181915</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.1.0-SNAPSHOT</value>
-        <updated>20250517175429</updated>
+        <updated>20250526181915</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>0.1.0-SNAPSHOT</value>
-        <updated>20250517175429</updated>
+        <updated>20250526181915</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
