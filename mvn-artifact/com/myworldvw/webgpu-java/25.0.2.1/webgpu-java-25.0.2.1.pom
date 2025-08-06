@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.myworldvw</groupId>
+        <artifactId>webgpu-parent</artifactId>
+        <version>25.0.2.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>webgpu-java</artifactId>
+    <packaging>jar</packaging>
+
+    <name>WebGPU Java Bindings</name>
+    <description>Panama FFI bindings for WebGPU</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.myworldvw</groupId>
+            <artifactId>webgpu-natives</artifactId>
+            <version>${project.version}</version>
+            <classifier>headers</classifier>
+            <type>zip</type>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>${project.build.directory}/generated-sources/jextract</sourceDirectory>
+        
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.6.1</version>
+                <executions>
+                    <execution>
+                        <id>unpack-headers</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeArtifactIds>webgpu-natives</includeArtifactIds>
+                            <includeClassifiers>headers</includeClassifiers>
+                            <outputDirectory>${project.build.directory}/headers</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>jextract</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>${project.parent.basedir}/tools/jextract-22/bin/jextract</executable>
+                            <arguments>
+                                <argument>${project.build.directory}/headers/webgpu.h</argument>
+                                <argument>-t</argument>
+                                <argument>com.myworldvw.webgpu</argument>
+                                <argument>--output</argument>
+                                <argument>${project.build.directory}/generated-sources/jextract</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                    
+                    <execution>
+                        <id>cleanup-extras</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>find</executable>
+                            <arguments>
+                                <argument>${project.build.directory}/generated-sources/jextract/com/myworldvw/webgpu</argument>
+                                <argument>-name</argument>
+                                <argument>*_t.java</argument>
+                                <argument>-delete</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <finalName>webgpu</finalName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

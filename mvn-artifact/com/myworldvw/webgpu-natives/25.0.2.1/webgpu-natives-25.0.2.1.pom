@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.myworldvw</groupId>
+        <artifactId>webgpu-parent</artifactId>
+        <version>25.0.2.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>webgpu-natives</artifactId>
+    <packaging>jar</packaging>
+
+    <name>WebGPU Native Headers</name>
+    <description>Downloads and extracts wgpu-native headers</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.googlecode.maven-download-plugin</groupId>
+                <artifactId>download-maven-plugin</artifactId>
+                <version>1.9.0</version>
+                <executions>
+                    <execution>
+                        <id>download-wgpu</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>wget</goal>
+                        </goals>
+                        <configuration>
+                            <url>https://github.com/gfx-rs/wgpu-native/releases/download/v${wgpuVersion}/wgpu-${os}-${arch}-${type}.zip</url>
+                            <outputDirectory>${project.build.directory}/downloads</outputDirectory>
+                            <outputFileName>wgpu-${os}-${arch}-${type}.zip</outputFileName>
+                            <skipCache>false</skipCache>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>extract-headers</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <unzip src="${project.build.directory}/downloads/wgpu-${os}-${arch}-${type}.zip"
+                                       dest="${project.build.directory}/extracted"/>
+                                <mkdir dir="${project.build.directory}/headers"/>
+                                <copy file="${project.build.directory}/extracted/include/webgpu/webgpu.h"
+                                      todir="${project.build.directory}/headers"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.7.1</version>
+                <executions>
+                    <execution>
+                        <id>package-headers</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>src/assembly/headers.xml</descriptor>
+                            </descriptors>
+                            <attach>true</attach>
+                            <classifier>headers</classifier>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

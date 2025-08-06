@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.myworldvw</groupId>
+        <artifactId>webgpu-parent</artifactId>
+        <version>25.0.2.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>webgpu-demo</artifactId>
+    <packaging>jar</packaging>
+
+    <name>WebGPU Demo Application</name>
+    <description>Demo application using WebGPU bindings with SDL2</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.myworldvw</groupId>
+            <artifactId>webgpu-java</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.github.libsdl4j</groupId>
+            <artifactId>libsdl4j</artifactId>
+            <version>2.28.4-1.6</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <mainClass>com.myworldvw.webgpu.demo.Main</mainClass>
+                    <systemProperties>
+                        <systemProperty>
+                            <key>RUST_BACKTRACE</key>
+                            <value>1</value>
+                        </systemProperty>
+                    </systemProperties>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
